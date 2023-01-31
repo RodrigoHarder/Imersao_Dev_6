@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;700&family=Rubik:wght@300;400;600;700;900&display=swap');
+
+body {
+  font-family: 'Rubik', sans-serif;
+	font-weight: 400;
+  text-align: center;
+	background-image: url("https://imgur.com/mHBNA4v.png");
+  background-color: #000000;
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.page-title {
+  color: #FF00FF;
+	font-size:4em;
+	text-align: center;
+}
+
+.page-subtitle {
+	display:Flex;
+	flex:column;
+	margin:1em;
+	justify-content:center;
+  color: #F5FFFA;
+	font-size:1.5em;
+}
+
+#valor{
+	width:30%;
+	font-size:2.5em;
+	border:none;
+	border-radius:5px;
+	background-color:#F5FFFA;
+	text-align:center;
+}
+
+.button {
+  width: 150px;
+  padding: 10px 10px;
+	border:none;
+	font-size:1.5em;
+	border-radius:5px;
+	font-weight:900;
+	background-color:#F5FFFA;
+	margin: 30px;
+  cursor: pointer;
+  position: relative;
+  display: inline-block;
+	transition: transform 200ms ease-in-out;
+}
+
+.area-buttons .button:hover {
+    transform: scale(1.05);
+    background-color: #FF00FF;
+    color: #FFFFFF;
+}
+
+.depoisdochute{
+	color:#F5FFFA;
+	font-size:1.5em;
+	font-weight:600;
+}
+
+#maior, #menor, #acabou{
+	color:#DC143C;
+	font-weight:600;
+}
+
+#acertou{
+	color:#20B2AA;
+	font-weight:600;
+}
+
+.alura-logo {
+  width: 60px;
+	display: inline-block;
+}
