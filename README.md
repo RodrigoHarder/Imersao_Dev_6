@@ -13,9 +13,9 @@ Na segunda aula, continuamos os estudos sobre JavaScript no desenvolvimento de u
 
 ## **Desafios**
 
-* Adicionar um número de tentativas para a pessoa tentar acertar e imprimir a resposta no final;
-* Quando a pessoa errar, deixe na mensagem se o número chutado é maior ou menor que o número secreto;
-* Pesquisar e aprender a diferença entre == e ===;
+* [Desafio 1](https://github.com/RodrigoHarder/Imersao_Dev_6/tree/aula_2/aula_2): :dart: Adicionar um número de tentativas para a pessoa tentar acertar e imprimir a resposta no final;
+* [Desafio 2](https://github.com/RodrigoHarder/Imersao_Dev_6/tree/aula_2/aula_2): :compass: Quando a pessoa errar, deixe na mensagem se o número chutado é maior ou menor que o número secreto;
+* Desafio 3: :nerd_face: Pesquisar e aprender a diferença entre == e ===;
 
 ## **Diferenças entre `==` e `===`**
 
