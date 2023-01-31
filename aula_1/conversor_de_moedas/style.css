@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body {
+  font-family: 'Roboto Mono', monospace;
+  text-align: center;
+  background-image: url("https://imgur.com/OjJghNO.png");
+  background-color: #000000;
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+}
+
+.page-title {
+  color: #F5FFFA;
+  margin: 1em;
+}
+
+.page-subtitle {
+  color: #F5FFFA;
+  margin-top: 2em;
+	font-family: 'Montserrat', sans-serif;
+	
+}
+
+#number1{
+	font-family: 'Montserrat', sans-serif;
+	width:30%;
+	font-size:3em;
+	border:none;
+	border-radius:20px;
+	background-color:#F5FFFA;
+	text-align:center;
+}
+
+#result{
+	margin-top: 2em;
+}
+
+.result{
+	font-family: 'Montserrat', sans-serif;
+	color:#F5FFFA;
+}
+.page-logo {
+  width: 200px;
+}
+
+.alura-logo {
+  width: 60px;
+  position: relative;
+	top:20px;
+}
