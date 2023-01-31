@@ -7,7 +7,7 @@ Em nosso primeiro mergulho, iniciamos os estudos sobre programação conhecendo 
 ## **Aprendizagens** 
 * Apresentação do editor de código-fonte ([CodePen](http://codepen.io/));
 * Diferenciação entre as linguagens HTML, CSS  e JavaScript;
-* Aprofundamento na linguagem JavaScript: variáveis, operações matemáticas básicas, arredondamentos, concatenação e interatividade por meiod e alertas;
+* Aprofundamento na linguagem JavaScript: variáveis, operações matemáticas básicas, arredondamentos, concatenação e interatividade por meio de alertas;
 
 ## **Desafios**
 
