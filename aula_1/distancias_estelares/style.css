@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;700&display=swap');
+
+body {
+	font-family: 'Poppins', sans-serif;
+  text-align: center;
+  background-image: url("https://imgur.com/3f7SDAu.png");
+  background-color: #000000;
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+}
+
+.page-title {
+  color: #F5FFFA;
+  margin-top: 1em;
+}
+
+.page-subtitle {
+  color: #F5FFFA;
+	font-family: 'Poppins', sans-serif;
+	font-weight:300;
+}
+
+#number1{
+	font-family: 'Poppins', sans-serif;
+	width:30%;
+	font-size:3em;
+	border:none;
+	border-radius:20px;
+	background-color:#F5FFFA;
+	text-align:center;
+	opacity:90%;
+}
+
+#result{
+	margin-top: 2em;
+}
+
+.result{
+	font-family: 'Poppins', sans-serif;
+	font-weight:300;
+	color:#F5FFFA;
+}
+
+.page-logo {
+  width: 200px;
+}
+
+.alura-logo {
+  width: 60px;
+  position: relative;
+	top:10%;
+}
