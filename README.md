@@ -5,15 +5,15 @@
 Em nosso primeiro mergulho, iniciamos os estudos sobre programação conhecendo as linguagens HTML, CSS e JavaScript.
 
 ## **Aprendizagens** 
-* Apresentação do editor de código-fonte ([CodePen](http://codepen.io/))
-* Diferenciação entre as linguagens HTML, CSS  e JavaScript.
-* Aprofundamento na linguagem JavaScript: variáveis, operações matemáticas básicas, arredondamentos, concatenação e interatividade por meiod e alertas.
+* Apresentação do editor de código-fonte ([CodePen](http://codepen.io/));
+* Diferenciação entre as linguagens HTML, CSS  e JavaScript;
+* Aprofundamento na linguagem JavaScript: variáveis, operações matemáticas básicas, arredondamentos, concatenação e interatividade por meiod e alertas;
 
 ## **Desafios**
 
-* [Desafio 1](https://github.com/RodrigoHarder/Imersao_Dev_6/tree/aula_1/aula_1/conversor_de_moedas): :coin: Criação de um conversor de moedas para analisar outras moedas para converter, bem como implementar a conversão do valor em Bitcoin
-* [Desafio 2](https://github.com/RodrigoHarder/Imersao_Dev_6/tree/aula_1/aula_1/distancias_estelares): :rocket: Conversor de anos luz em quilômetros e verificar o tempo que demora para ir de uma estrela para outra
-* [Desafio 3](https://github.com/RodrigoHarder/Imersao_Dev_6/tree/aula_1/aula_1/conversor_de_temperaturas): :thermometer: Conversor de temperaturas entre fahrenheit, kelvin e celsius
+* [Desafio 1](https://github.com/RodrigoHarder/Imersao_Dev_6/tree/aula_1/aula_1/conversor_de_moedas): :coin: Criação de um conversor de moedas para diversos tipos de moedas, incluindo Bitcoin;
+* [Desafio 2](https://github.com/RodrigoHarder/Imersao_Dev_6/tree/aula_1/aula_1/distancias_estelares): :rocket: Conversor de anos luz em quilômetros e verificar o tempo que demora para ir de uma estrela para outra;
+* [Desafio 3](https://github.com/RodrigoHarder/Imersao_Dev_6/tree/aula_1/aula_1/conversor_de_temperaturas): :thermometer: Conversor de temperaturas entre fahrenheit, kelvin e celsius;
 
 ## **Materiais complementares**
 
