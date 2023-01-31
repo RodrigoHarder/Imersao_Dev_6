@@ -1,47 +1,28 @@
-<h1 align="center">:diving_mask:Imersão Dev 6</h1>
+<h1 align="center">:diving_mask:Imersão Dev 6 - Aula 2</h1>
 
-<div>
-  <p align="center">
-    <img alt="Licença do projeto com os dizeres: MIT" src="https://img.shields.io/github/license/RodrigoHarder/Barbearia-Alura.svg">
-    <img alt="Status do projeto com os dizeres: Em andamento" src="https://img.shields.io/static/v1?label=Status&message=Em desenvolvimento &color=orange">
-  </p>
-</div>
 
 ## **Sobre a Imersão**
-
+Na segunda aula, continuamos os estudos sobre JavaScript no desenvolvimento de um jogo de adivinhação de números.
 
 ## **Aprendizagens** 
+* Uso de variáveis;
+* Comando prompt para interagir e perguntar algo para o usuário;
+* Estruturas condicionais (`if`, `else`, `else if`);
+* Laços de repetição (`while`);
+* Uso do `parseInt()` e `Math.random()` na criação de um conjunto de números aleatórios;
 
+## **Desafios**
 
-## **Projetos**
+* Adicionar um número de tentativas para a pessoa tentar acertar e imprimir a resposta no final;
+* Quando a pessoa errar, deixe na mensagem se o número chutado é maior ou menor que o número secreto;
+* Pesquisar e aprender a diferença entre == e ===;
 
-* [Aula 1 (30/01/2023)](https://github.com/RodrigoHarder/Imersao_Dev_6/tree/aula_1)
+## **Diferenças entre `==` e `===`**
 
-## **Como usar os arquivos?**
+Ao comparar duas variáveis, podemos tanto utilizar `==` quanto igual `===`. A diferença entre esses dois operadores é que, enquanto o primeiro apenas **realiza uma análise de valores**, o segundo, por sua vez, também **verifica os tipos dos dados**. 
 
-1. Clonar o repositório
+## **Materiais complementares**
 
-```
-git clone https://github.com/RodrigoHarder/Imersao_Dev_6.git
-```
-2. Localizar e abrir a pasta *imersao_dev*
-
-```
-cd imersao_dev
-```
-
-## **Tecnologias usadas**
-
-Neste projeto foram usadas as seguintes linguagens:
-
-<p>
- <img align="center" alt="HTML 5" src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"> 
- <img align="center" alt="CSS 3" src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white">
- <img align="center" alt="Javascript" src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E">
-</p>
-
-Para a construção dos códigos que compõem a página foi utilizado o editor de código-fonte online [CodePen](https://codepen.io/).
-
-## Desenvolvedor
-
-[<img src="https://avatars.githubusercontent.com/u/114362538?v=4" width=115><br><sub>Rodrigo Silva Harder</sub>](https://github.com/RodrigoHarder)
+* [Strict equality (===)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Strict_equality);
+* [Math.random()](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Math/random);
+* [Como utilizar operadores de comparação em Javascript](https://www.alura.com.br/artigos/operadores-matematicos-em-javascript)
