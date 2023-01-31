@@ -16,6 +16,7 @@
 ## **Projetos**
 
 * [Aula 1 (30/01/2023)](https://github.com/RodrigoHarder/Imersao_Dev_6/tree/aula_1)
+* [Aula 2 (31/01/2023)](https://github.com/RodrigoHarder/Imersao_Dev_6/tree/aula_2)
 
 ## **Como usar os arquivos?**
 
