@@ -1,7 +1,7 @@
 <h1 align="center">:diving_mask:Imersão Dev 6 - Aula 2</h1>
 
 
-## **Sobre a Imersão**
+## **Sobre a Aula**
 Na segunda aula, continuamos os estudos sobre JavaScript no desenvolvimento de um jogo de adivinhação de números.
 
 ## **Aprendizagens** 
