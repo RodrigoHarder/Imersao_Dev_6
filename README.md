@@ -9,6 +9,7 @@
 
 ## **Sobre a Imersão**
 
+A Imersão é um momento de compartilhar conhecimento, aprender novos conteúdos e desenvolver habilidades. O objetivo desta imersão foi aprender os conceitos iniciais sobre JavaScript em cinco aulas repletas de desafios que nos incentivaram a ir além e explorar diferentes comandos e códigos. As aulas foram realizadas dos dias 30/01/2023 até 03/02/2023 e ontavam com duração de aproximadamente 1 hora por aula.
 
 ## **Aprendizagens** 
 
@@ -17,6 +18,7 @@
 
 * [Aula 1 (30/01/2023)](https://github.com/RodrigoHarder/Imersao_Dev_6/tree/aula_1)
 * [Aula 2 (31/01/2023)](https://github.com/RodrigoHarder/Imersao_Dev_6/tree/aula_2)
+* [Aula 3 (01/02/2023)](https://github.com/RodrigoHarder/Imersao_Dev_6/tree/aula_3)
 
 ## **Como usar os arquivos?**
 
