@@ -1,7 +1,7 @@
 <h1 align="center">:diving_mask:Imersão Dev 6 - Aula 3</h1>
 
 ## **Sobre a Aula**
-Na segunda aula, continuamos os estudos sobre JavaScript no desenvolvimento de um catálogo de filmes e séries utilizando laços de repetição e listas.
+Nesta aula, continuamos os estudos sobre JavaScript no desenvolvimento de um catálogo de filmes e séries utilizando laços de repetição e listas.
 
 ## **Aprendizagens** 
 * Uso de variáveis contendo listas (arrays);
