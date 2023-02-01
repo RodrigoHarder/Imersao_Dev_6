@@ -1,7 +1,7 @@
 <h1 align="center">:diving_mask:Imersão Dev 6 - Aula 1</h1>
 
 
-## **Sobre a Imersão**
+## **Sobre a Aula**
 Em nosso primeiro mergulho, iniciamos os estudos sobre programação conhecendo as linguagens HTML, CSS e JavaScript.
 
 ## **Aprendizagens** 
