@@ -19,17 +19,34 @@ var listaFilmes = [
     ano: 2005,
     poster: "https://m.media-amazon.com/images/M/MV5BMDNkOTE4NDQtMTNmYi00MWE0LWE4ZTktYTc0NzhhNWIzNzJiXkEyXkFqcGdeQXVyMzQ2MDI5NjU@._V1_FMjpg_UX1000_.jpg"
   },
+  { 
+    nome: "Stranger Things",
+    ano: 2016,
+    poster: "https://br.web.img2.acsta.net/pictures/19/07/10/20/01/2331295.jpg"
+  }, 
+  {
+    nome: "Grimm",
+    ano: 2011,
+    poster: "https://m.media-amazon.com/images/M/MV5BMTkyODg2MzQwMV5BMl5BanBnXkFtZTgwNTA2MjE1MDI@._V1_FMjpg_UX1000_.jpg"
+  },
+  {
+    nome: "Us",
+    ano: 2019,
+    poster: "https://m.media-amazon.com/images/M/MV5BZTliNWJhM2YtNDc1MC00YTk1LWE2MGYtZmE4M2Y5ODdlNzQzXkEyXkFqcGdeQXVyMzY0MTE3NzU@._V1_.jpg"
+  },
+  {
+    nome: "Nope",
+    ano: 2022,
+    poster: "https://m.media-amazon.com/images/M/MV5BZmQ4MjE3YjUtZWFhOS00YzQ3LWEyM2EtYTAxNWU1ZDkwZTg5XkEyXkFqcGdeQXVyMTA3MDk2NDg2._V1_.jpg"
+  }
 ];
 
-// Indica onde no HTML vai aparecer o texto (id="filmeNovo")
 var elementoFilmeNovo = document.getElementById("filmeNovo");
-var elementoSelecao = document.getElementById("deletar");
 
 imprimirFilmes();
 
-// Imprime os pôsteres na tela
 function imprimirFilmes() {
-  // Variável onde irá o código a ser impresso
+  
   var codigoImprimir = "";
 
   for (var i = 0; i < listaFilmes.length; i++) {
@@ -38,24 +55,21 @@ function imprimirFilmes() {
   }
 
   elementoFilmeNovo.innerHTML = codigoImprimir;
-} // fim function imprimirFilmes()
+}
 
-// Adiciona novo filme
 function Adicionar() {
-  // Puxa o título e a URL digitada nos campos de entrada
   var filme = document.getElementById("filme").value;
   var ano = document.getElementById("ano").value;
   var poster = document.getElementById("poster").value;
 
-  // Verifica se o título ou a url já está registrado
   if (
     listaFilmes.findIndex((i) => i.nome == filme) >= 0 ||
     listaFilmes.findIndex((i) => i.poster == poster) >= 0
   ) {
-    alert("Esse filme/pôster já está no catálogo");
-  } else if (
-    // if verifica se a url é de uma extensão de imagem válida
-    poster.endsWith(".jpg") ||
+    
+    alert("Parece que este filme/série já está no catálogo");
+  
+  } else if (poster.endsWith(".jpg") ||
     poster.endsWith(".JPG") ||
     poster.endsWith(".jpeg") ||
     poster.endsWith(".JPEG") ||
@@ -70,23 +84,21 @@ function Adicionar() {
     poster.endsWith(".webp") ||
     poster.endsWith(".WEBP")
   ) {
-    // Adiciona o título, url e ano ao Array dos Filmes
+    
     var j = listaFilmes.length;
     listaFilmes[j] = { nome: filme };
     listaFilmes[j].ano = ano;
     listaFilmes[j].poster = poster;
-
-    // Re-imprime os posteres na tela
+    
     imprimirFilmes();
+  
   } else {
-    // Aviso mostrado caso a url não seja de uma extensão de imagem válida
     alert(
       "URL da imagem com extensão inválida (extensões aceitas: .jpg, .jpeg, .png, .gif, .bmp, .svg e .webp)"
     );
   }
 
-  // Limpa os campos
   document.getElementById("filme").value = "";
   document.getElementById("ano").value = "";
   document.getElementById("poster").value = "";
-} // fim function Adicionar()
+}
