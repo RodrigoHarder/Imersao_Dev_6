@@ -19,6 +19,7 @@ A Imersão é um momento de compartilhar conhecimento, aprender novos conteúdos
 * [Aula 1 (30/01/2023)](https://github.com/RodrigoHarder/Imersao_Dev_6/tree/aula_1)
 * [Aula 2 (31/01/2023)](https://github.com/RodrigoHarder/Imersao_Dev_6/tree/aula_2)
 * [Aula 3 (01/02/2023)](https://github.com/RodrigoHarder/Imersao_Dev_6/tree/aula_3)
+* [Aula 4 (02/02/2023)](https://github.com/RodrigoHarder/Imersao_Dev_6/tree/aula_4)
 
 ## **Como usar os arquivos?**
 
