@@ -7,7 +7,7 @@
 body {
   font-family: "Montserrat", "Droid Sans", sans-serif;
   text-align: center;
-  color: black;
+  color: #000000;
   background-color:#141414;
   background-size: cover;
   background-attachment: fixed;
@@ -16,16 +16,26 @@ body {
 }
 
 .logo-alura {
-  width: 40px;
+  width: 80px;
   position: absolute;
   top: 30px;
-  right: 20px;
+  right: 30px;
+  cursor:pointer
+}
+
+.logo-alura:hover{
+  transform: scale(1.1);
 }
 
 .logo-imersao {
-  width: 150px;
+  width: 200px;
   display: flex;
-  padding:20px
+  padding:20px;
+  cursor:pointer
+}
+
+.logo-alura:hover{
+  transform: scale(1.1);
 }
 
 .apresentacao {
@@ -73,7 +83,14 @@ a {
   display:flex;
   flex-direction:row;
   justify-content:center;
-  text-align:center;
+  height:60px;
+}
+
+input{
+  font-size:18px;
+  text-align: center;
+  border:none;
+  box-shadow: 2px 2px 4px #000000;
 }
 
 button{
@@ -81,12 +98,13 @@ button{
   color: #E50914;
   background: #FFFFFF;
   font-weight: bold;
-  padding: 10px 10px;
-  font-size: 14px;
+  padding: 15px 40px;
+  font-size: 20px;
   border-radius: 4px;
-  margin-top: 5px;
+  margin-top: 20px;
   cursor: pointer;
   transition: 0.2s;
+  box-shadow: 2px 2px 4px #000000;
 }
 
 button:hover {
@@ -137,4 +155,14 @@ input {
   margin: 6px;
   padding: 6px;
   border-radius: 5px;
+}
+
+footer{
+  padding-top:50px;
+}
+
+.copyright{
+  color: #FFFFFF;
+  font-size: 13px;
+  margin: 5px 0;
 }

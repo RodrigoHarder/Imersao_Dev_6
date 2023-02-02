@@ -38,6 +38,36 @@ var listaFilmes = [
     nome: "Nope",
     ano: 2022,
     poster: "https://m.media-amazon.com/images/M/MV5BZmQ4MjE3YjUtZWFhOS00YzQ3LWEyM2EtYTAxNWU1ZDkwZTg5XkEyXkFqcGdeQXVyMTA3MDk2NDg2._V1_.jpg"
+  },
+  {
+    nome: "Midsommar",
+    ano: 2019,
+    poster: "https://viureview.com.br/images/filmes4/Midsommar.jpg"
+  },
+  {
+    nome: "A Bruxa",
+    ano: 2015,
+    poster: "https://i0.wp.com/lugarnenhum.net/wp-content/uploads/2021/03/the-witch.jpg?resize=691%2C1024&ssl=1"
+  },
+  {
+    nome: "Hereditário",
+    ano: 2018,
+    poster: "https://br.web.img3.acsta.net/pictures/18/06/14/13/11/1751062.jpg"
+  },
+  {
+    nome: "Corra",
+    ano: 2017,
+    poster: "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRB6hcDB3u8PZsRafyFsdOYdo7LUoy84J9z-2rDCuonmh07qhvp"
+  },
+  {
+    nome: "O iluminado",
+    ano: 1980,
+    poster: "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQgBcnfLW2H68J2aqMN3Fj7SOoDY05UYvZlepL_KkjIfC78dxyx"
+  },
+  {
+    nome: "O exorcista",
+    ano: 1973,
+    poster: "https://www.themoviedb.org/t/p/w500/z8X9sQ64GPGeJi5hWQsqDqEVMan.jpg"
   }
 ];
 
