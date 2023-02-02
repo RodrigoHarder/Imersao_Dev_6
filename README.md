@@ -1,50 +1,26 @@
-<h1 align="center">:diving_mask:Imersão Dev 6</h1>
+<h1 align="center">:diving_mask:Imersão Dev 6 - Aula 4</h1>
 
-<div>
-  <p align="center">
-    <img alt="Licença do projeto com os dizeres: MIT" src="https://img.shields.io/github/license/RodrigoHarder/Barbearia-Alura.svg">
-    <img alt="Status do projeto com os dizeres: Em andamento" src="https://img.shields.io/static/v1?label=Status&message=Em desenvolvimento &color=orange">
-  </p>
-</div>
-
-## **Sobre a Imersão**
-
-A Imersão é um momento de compartilhar conhecimento, aprender novos conteúdos e desenvolver habilidades. O objetivo desta imersão foi aprender os conceitos iniciais sobre JavaScript em cinco aulas repletas de desafios que nos incentivaram a ir além e explorar diferentes comandos e códigos. As aulas foram realizadas dos dias 30/01/2023 até 03/02/2023 e ontavam com duração de aproximadamente 1 hora por aula.
+## **Sobre a Aula**
+Na quarta aula, continuamos os estudos sobre JavaScript e demos continuidade à página do Aluraflix adicionando novas funcionalidades ao projeto e integrando HTML e JavaScript.
 
 ## **Aprendizagens** 
+- Uso de de funções;
+- Uso da tag `<button>`;
+- Importar do mundo HTML para o JS usando `document.getElementById().value` colocado em uma variável;
+- Mostrar um elemento no HTML usando JS usando `document.write('img src=' + nome + '>');` ;
+- Usando `.innerHTML`;
+- Adicionando o anterior e mais um pouco `+=` ;
+- Limpar o input após preenchimento atribuindo valor nulo `""` ;
 
+## **Desafios**
 
-## **Projetos**
+* [Desafio 1](https://github.com/RodrigoHarder/Imersao_Dev_6/tree/aula_4/aula_4): :x: Criar um botão para remover um filme na tela;
+* [Desafio 2](https://github.com/RodrigoHarder/Imersao_Dev_6/tree/aula_4/aula_4): :writing_hand: Além de colocar a imagem do filme, também adicionar o nome por meio de outro input;
+* [Desafio 3](https://github.com/RodrigoHarder/Imersao_Dev_6/tree/aula_4/aula_4): :pencil: Guardar todos os filmes adicionados em uma lista/array e percorrer essa lista toda vez que quiser imprimir ou remover o filme.
 
-* [Aula 1 (30/01/2023)](https://github.com/RodrigoHarder/Imersao_Dev_6/tree/aula_1)
-* [Aula 2 (31/01/2023)](https://github.com/RodrigoHarder/Imersao_Dev_6/tree/aula_2)
-* [Aula 3 (01/02/2023)](https://github.com/RodrigoHarder/Imersao_Dev_6/tree/aula_3)
+## **Materiais complementares**
 
-## **Como usar os arquivos?**
-
-1. Clonar o repositório
-
-```
-git clone https://github.com/RodrigoHarder/Imersao_Dev_6.git
-```
-2. Localizar e abrir a pasta *imersao_dev*
-
-```
-cd imersao_dev
-```
-
-## **Tecnologias usadas**
-
-Neste projeto foram usadas as seguintes linguagens:
-
-<p>
- <img align="center" alt="HTML 5" src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"> 
- <img align="center" alt="CSS 3" src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white">
- <img align="center" alt="Javascript" src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E">
-</p>
-
-Para a construção dos códigos que compõem a página foi utilizado o editor de código-fonte online [CodePen](https://codepen.io/).
-
-## Desenvolvedor
-
-[<img src="https://avatars.githubusercontent.com/u/114362538?v=4" width=115><br><sub>Rodrigo Silva Harder</sub>](https://github.com/RodrigoHarder)
+* [O que é Git e GitHub](https://youtu.be/nec3n02idMw);
+* Iterações são parte importante do estudo de lógica de programação e nem sempre a gente pega de primeira. Por isso, produzimos um [vídeo extra](https://www.youtube.com/watch?v=c8Zac9hWbs8) para você dar um gás nesse tema e tirar suas dúvidas. Ou ter dúvidas novas, o que também é bom!
+* [Refazendo a aula 1 com outra linguagem de programação](https://www.youtube.com/watch?v=DsFb24TgJ0c);
+* [Como abrir um programa do CodePen no VSCode](https://www.youtube.com/watch?v=xvkuNF_8Coc);
