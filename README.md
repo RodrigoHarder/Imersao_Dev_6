@@ -13,14 +13,13 @@ A Imersão é um momento de compartilhar conhecimento, aprender novos conteúdos
 
 ## **Aprendizagens** 
 
-
 ## **Projetos**
 
-* [Aula 1 (30/01/2023)](https://github.com/RodrigoHarder/Imersao_Dev_6/tree/aula_1)
-* [Aula 2 (31/01/2023)](https://github.com/RodrigoHarder/Imersao_Dev_6/tree/aula_2)
-* [Aula 3 (01/02/2023)](https://github.com/RodrigoHarder/Imersao_Dev_6/tree/aula_3)
-* [Aula 4 (02/02/2023)](https://github.com/RodrigoHarder/Imersao_Dev_6/tree/aula_4)
-* [Aula 5 (03/02/2023)](https://github.com/RodrigoHarder/Imersao_Dev_6/tree/aula_5)
+* [Aula 1 - Conversor de moedas](https://github.com/RodrigoHarder/Imersao_Dev_6/tree/aula_1)
+* [Aula 2 - Mentalista](https://github.com/RodrigoHarder/Imersao_Dev_6/tree/aula_2)
+* [Aula 3 - Aluraflix e filmes array](https://github.com/RodrigoHarder/Imersao_Dev_6/tree/aula_3)
+* [Aula 4 - Aluraflix e filmes preferidos](https://github.com/RodrigoHarder/Imersao_Dev_6/tree/aula_4)
+* [Aula 5 - Tabela de Pontos](https://github.com/RodrigoHarder/Imersao_Dev_6/tree/aula_5)
 
 ## **Resultados da Imersão**
 
