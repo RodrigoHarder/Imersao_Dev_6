@@ -1,0 +1,283 @@
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.logo-alura {
+  width: 80px;
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  cursor:pointer
+}
+
+.logo-alura:hover{
+  transform: scale(1.1);
+}
+
+.logo-imersao {
+  width: 200px;
+  display: flex;
+  padding:20px;
+  cursor:pointer
+}
+
+.logo-imersao:hover{
+  transform: scale(1.1);
+}
+
+body {
+  font-family:'Mochiy Pop One', sans-serif;
+  min-height: 400px;
+  background:#0F0F0F;
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.titulo-principal {
+  color: #FBFBFB;
+  margin: 100px 0 5px;
+  font-size:100px;
+}
+
+.titulo-secundario{
+  color:#EF233C;
+  font-size:50px;
+  margin-bottom: 80px;
+}
+
+.apresentacao{
+  margin: 5% 12%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#apresentacao-conteudo{
+  display: flex;
+  flex-direction: column;
+  gap: 3em;
+  text-align: left;
+  padding-right: 5%;
+  width: 800px;
+}
+
+.subtitulo{
+  font-size:50px;
+  color:#0F0F0F;
+  font-weight: bolder;
+  background-color: #f9c23c;
+  padding:5px;
+}
+
+.regras{
+  font-size:18px;
+  color:#FBFBFB;
+  margin-top:-30px;
+}
+
+.lista-pontuacao{
+  font-size:18px;
+  color:#FBFBFB;
+  margin-top:-30px;
+}
+
+.itens{
+  list-style-type: none;
+}
+
+.itens::before{
+  content:'✨'
+}
+
+.novo-jogador{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.novo-jogador-nome{
+  margin-right: 50px;
+}
+
+.bold{
+  font-size: 16px;
+  color:#EF233C;
+}
+
+.adicionar{
+  font-family:'Mochiy Pop One', sans-serif;
+  font-size: 16px;
+  color:#0F0F0F;
+  background-color: #FBFBFB;
+  width: 250px;
+  border:none;
+  height: 50px;
+  border-radius: 5px;
+}
+
+.botao-adicionar{
+  font-family:'Mochiy Pop One', sans-serif;
+  font-size: 20px;
+  font-weight: bolder;
+  color:#0F0F0F;
+  background-color: #f9c23c;
+  padding:10px;
+  border:none;
+  border-radius: 10px;
+  cursor:pointer
+}
+
+.botao-adicionar:hover{
+  transform: scale(1.1);
+  color:#EF233C;
+  background-color: #FBFBFB;
+}
+
+#adicionar-botao{
+  margin-bottom:80px;
+}
+
+.subtitulo-2{
+  font-size:20px;
+  color:#f9c23c;
+  margin-bottom: 20px;
+}
+
+.jogar-o-dado{
+  margin: 2% 12%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.resultado-dado{
+  font-size: 30px;
+  color:#FBFBFB;
+  margin-right: 30px;
+  background-color: #EF233C;
+  padding:20px;
+  border-radius: 10px;
+}
+
+.dado{
+  font-family:'Mochiy Pop One', sans-serif;
+  font-size: 30px;
+  font-weight: bolder;
+  color:#0F0F0F;
+  background-color: #f9c23c;
+  padding:20px;
+  border:none;
+  border-radius: 10px;
+  cursor:pointer
+}
+
+.dado:hover{
+  transform: scale(1.1);
+  color:#EF233C;
+  background-color: #FBFBFB;
+}
+
+.classificacao{
+  margin-top: 40px;
+  margin-bottom: 40px;
+  font-size:35px;
+  color:#f9c23c;
+}
+
+.vitoria{
+  font-family:'Mochiy Pop One', sans-serif;
+  font-size: 16px;
+  font-weight: bolder;
+  color:#0F0F0F;
+  background-color: #17B890;
+  padding:5px;
+  border:none;
+  border-radius: 10px;
+  cursor:pointer
+}
+
+.vitoria:hover{
+  transform: scale(1.1);
+  color:#17B890;
+  background-color: #FBFBFB;
+}
+
+.empate{
+  font-family:'Mochiy Pop One', sans-serif;
+  font-size: 16px;
+  font-weight: bolder;
+  color:#0F0F0F;
+  background-color: #f9c23c;
+  padding:5px;
+  border:none;
+  border-radius: 10px;
+  cursor:pointer
+}
+
+.empate:hover{
+  transform: scale(1.1);
+  color:#f9c23c;
+  background-color: #FBFBFB;
+}
+
+.derrota{
+  font-family:'Mochiy Pop One', sans-serif;
+  font-size: 16px;
+  font-weight: bolder;
+  color:#0F0F0F;
+  background-color: #EF233C;
+  padding:5px;
+  border:none;
+  border-radius: 10px;
+  cursor:pointer
+}
+
+.derrota:hover{
+  transform: scale(1.1);
+  color:#EF233C;
+  background-color: #FBFBFB;
+}
+
+table {
+  border: 5px solid #EF233C;
+  border-collapse: collapse;
+  border-radius: 10px;
+}
+
+table {
+  margin: 0 50px;
+  
+}
+
+th{
+  background-color: #EF233C;
+}
+th,
+tr,
+td {
+  border: solid 5px #EF233C;
+  color: #FBFBFB;
+}
+
+.avatar {
+  width: 50px;
+  height: 50px;
+}
+
+
+footer{
+  padding-top:50px;
+}
+
+.copyright{
+  color: #FFFFFF;
+  font-size: 13px;
+  margin: 5px 0;
+}

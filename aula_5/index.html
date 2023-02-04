@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br" >
+  <head>
+    <meta charset="UTF-8">
+    <title>Roll the Dice</title>
+    <link rel="shortcut icon" href="imagens/dados.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+    <header>
+      <div class="logotipos">  
+        <a href="https://www.alura.com.br/"><img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="logo-alura"></a>
+        <a href="https://imersao.dev/"><img src="https://imersao.dev/assets/img/logo-imersao-dev6-desktop.1674580904.png" class="logo-imersao" alt="Logotipo da imersão dev"></a>
+      </div>
+      <h1 class="titulo-principal">Roll the Dice</h1>
+      <h2 class=" titulo-secundario">Jogue e se divirta com seus amigos</h2>
+    </header>
+    <main>
+      <section class="apresentacao">
+        <div id="apresentacao-conteudo">
+          <p class="subtitulo">Regras</p>
+          <p class="regras">Vamos ao jogo quem tirar o maior valor na rolagem de dados vence. A pontuação pode ser marcada no placar de classificação.</p> 
+          <ul class="lista-pontuacao">
+            <li class="itens">A cada vitória são marcados três pontos</li>
+            <li class="itens">As derrotas não somam ou tiram pontos, mas são acumulativas</li>
+            <li class="itens">Em caso de empate todos os participantes ganham um ponto</li>
+          </ul>
+        </div>
+        <img class="cuphead-imagem" src="imagens/dados.png" alt="Ilustração do jogo Cuphead" width="30%" height="30%">
+      </section>
+      <p class="subtitulo-2">Adicione aqui quantos jogadores quiser!</p>
+      <section>
+        <div class="novo-jogador">
+          <div class="novo-jogador-nome">
+            <label for="novo-nome" class="bold">Nome do jogador</label><br>
+            <input id="novo-nome" class="adicionar" type="text" placeholder="Insira o nome do Jogador">
+          </div>
+          <div>
+            <label for="novo-avatar" class="bold">Avatar do jogador</label><br>
+            <input id="novo-avatar" class="adicionar" type="text" placeholder="Insira um link de imagem">
+          </div>
+        </div>
+          <button onclick="adicionarNovoNome()" class="botao-adicionar">Adicionar</button>
+        </section>
+      <section class="jogar-o-dado">
+        <p id="resultado" class="resultado-dado">O número é...</p>
+        <button onclick="jogarDado()" class="dado">Roll</button>
+      </section>
+      <section class="tabela-geral">
+        <h2 class="classificacao">Classificação</h2>
+        <table class="tabela" style="width:92%">
+          <thead>
+            <tr>
+              <th class="imagens"></th>
+              <th>Nome</th>
+              <th>Vitórias</th>
+              <th>Empates</th>
+              <th>Derrotas</th>
+              <th>Pontos</th>
+              <th colspan="3">Ações</th>
+            </tr>
+          </thead>
+          <tbody id="tabelaJogadores">
+          </tbody>
+      </table>
+      </section>
+      <button onclick="limparTela(jogador)" class="botao-adicionar" id="adicionar-botão">Limpar</button>
+    </main>    
+    
+    <footer>
+      <img src="imagens/dados.png" alt="Ilustração de um dado vermelho" width="5%", height="5%">
+      <p class="copyright"> &copy; Copyright Roll the Dice - 2023</p>
+    </footer>
+
+  </body>
+</html>
+
+<script  src="script.js"></script>
