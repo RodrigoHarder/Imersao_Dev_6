@@ -2,8 +2,8 @@
 
 <div>
   <p align="center">
-    <img alt="Licença do projeto com os dizeres: MIT" src="https://img.shields.io/github/license/RodrigoHarder/Barbearia-Alura.svg">
-    <img alt="Status do projeto com os dizeres: Em andamento" src="https://img.shields.io/static/v1?label=Status&message=Em desenvolvimento &color=orange">
+    <img alt="Licença do projeto com os dizeres: MIT" src="https://img.shields.io/github/license/RodrigoHarder/Imersao_Dev_6.svg">
+    <img alt="Status do projeto com os dizeres: Concluído" src="https://img.shields.io/static/v1?label=Status&message=Concluído &color=green">
   </p>
 </div>
 
@@ -43,6 +43,9 @@ A Imersão é um momento de compartilhar conhecimento, aprender novos conteúdos
 * [Aula 5 - Tabela de Pontos](https://github.com/RodrigoHarder/Imersao_Dev_6/tree/aula_5)
 
 ## **Resultados da Imersão**
+O resultado final dos projetos pode ser visto no vídeo abaixo.
+
+![Gif da tela dos projetos realizados na imersão dev, mostrando: um conversor de moedas que converte dolar, euro, peso argentino e bitcoin em reais, um conversor de temperaturas que transforma graus celsius em Fahrenheint e Kelvin, um conversor de anos luz em km, um catálogo de filmes e um jogo de dados com uma tabela classificatória.](https://imgur.com/G1xssWQ.gif)
 
 ## **Como usar os arquivos?**
 
